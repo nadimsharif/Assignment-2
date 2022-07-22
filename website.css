@@ -215,3 +215,27 @@ hr {
 
 /* media queries */
 /* mobile devices */
+@media only screen and (max-width:688px) {
+
+    .full,
+    .footer {
+        width: 100%;
+    }
+
+    .all {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* tablet devices */
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+    .full,
+    .footer {
+        width: 100%;
+    }
+
+    .all {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
