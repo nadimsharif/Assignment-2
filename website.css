@@ -87,6 +87,7 @@ body {
     margin-right: 20px;
     margin-bottom: 0;
     border-radius: 10px;
+    color: #FFFFFF;
 }
 
 .anchor {
@@ -142,8 +143,10 @@ main {
 }
 
 .match .match-banner img {
-    width: 250px;
-    height: 130px;
+    width: 93.04px;
+    height: 56.18px;
+    margin-top: 50px;
+    margin-left: 13px;
 }
 
 .transfer-box {
